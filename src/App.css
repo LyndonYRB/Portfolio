@@ -17,6 +17,13 @@ padding: 10px;
   margin-top: 10px;
   margin-bottom: -20px;
 }
+
+.about-me {
+  margin-top: -30px;
+}
+
+
+
 .first-letter{
   font-size: 40px;
   color: rgb(33, 33, 33);
@@ -80,4 +87,7 @@ p{
 
 .rc-tabs-nav-list {
 margin-top: 1rem;
+}
+.about-me-tab, .skills-tab{
+  background-color: #000000;
 }

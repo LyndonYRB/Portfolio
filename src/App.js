@@ -5,13 +5,13 @@ import '../node_modules/rc-tabs/assets/index.css'
 import AboutMe from './Components/About-Me';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
+import Contact from './Components/Contact';
 
 
 export default function App() { 
   function callback(e) {
     console.log(e);
-}
-  
+} 
   return (
     <div className='App' >
       <div className='header'>
@@ -22,11 +22,11 @@ export default function App() {
         </h1>
       <Tabs defaultActiveKey='2' onChange={callback}>
         <TabPane className='mid' tab=' About Me' key='1'>
-          <Tabs defaultActiveKey='2' onChange={callback}>      
-          <TabPane tab=' About Me' key='1a'>
+          <Tabs className='about-me' defaultActiveKey='2' onChange={callback}>      
+          <TabPane className='about-me-tab' tab=' About Me' key='1a'>
                <AboutMe/>
           </TabPane>
-          <TabPane tab=' Skills' key='1b'>
+          <TabPane className='skills-tab' tab=' Skills' key='1b'>
                <Skills/>
           </TabPane>
             </Tabs>
@@ -35,19 +35,13 @@ export default function App() {
             <Projects/>
         </TabPane>
         <TabPane className='mid' tab=' Contact' key='3'>
-            Contact Info
-            Email
-            Resume
-            Github
-            LinkedIn
+            <Contact/>
         </TabPane>
-
         </Tabs>
       </div>
 </div >
   
   );
-
 
 }
 

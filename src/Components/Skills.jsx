@@ -4,7 +4,7 @@ export default function Skills() {
   
   return (
     <div>
- Skills
+      Skills
                 <div>
                   HTML5
                   JAVASCRIPT
