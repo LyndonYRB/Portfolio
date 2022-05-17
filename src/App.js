@@ -20,7 +20,7 @@ export default function App() {
           <span className='first-letter'> S</span><span className='change-color'>t.</span>
           <span className='first-letter'>L</span><span className='change-color'>uce</span>
         </h1>
-      <Tabs defaultActiveKey='2' onChange={callback}>
+      <Tabs defaultActiveKey='1' onChange={callback}>
         <TabPane className='mid' tab=' About Me' key='1'>
           <Tabs className='about-me' defaultActiveKey='2' onChange={callback}>      
           <TabPane className='about-me-tab' tab=' About Me' key='1a'>
