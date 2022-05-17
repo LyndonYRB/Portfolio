@@ -1,14 +1,22 @@
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:first baseline;
-  margin: 100px;
+position:absolute;
+  display: grid;
+  grid-template-rows: 120px 120px 120px;
+  grid-template-columns: 120px 120px 120px;
+   width: 360px;
+   height: 360px;
+   top: auto;
+   left: auto;
+ 
 }
 
-.cell {
-  flex:0 0 30%;
-  height: 200px;
-  
 
-  
+
+.cell {
+ 
+  align-items: center;
+  justify-content: center;
+  height: 360px;
+  width: 360px;
+  margin: 10px;
 }
