@@ -1,0 +1,14 @@
+img {
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  height: 10%;
+  width: 10%;
+}
+.img-two {
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  height: 7%;
+  width: 7%;
+}

@@ -1,0 +1,14 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:first baseline;
+  margin: 100px;
+}
+
+.cell {
+  flex:0 0 30%;
+  height: 200px;
+  
+
+  
+}
