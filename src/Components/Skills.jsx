@@ -17,15 +17,15 @@ export default function Skills() {
     <div>
       Skills
       <div className="grid">
-      <div className="cell"> <img src={ImgHTML}/> </div>
-      <div className="cell"> <img src={ImgJS}/> </div>
-       <div className="cell"> <img src={ImgCss} /> </div>
-        <div className="cell"> <img src={ImgReact} />  </div>
-        <div className="cell"> <img src={ImgMongoDB} /> </div>
-        <div className="cell"> <img src={ImgExpress} /> </div>
-        <div className="cell"> <img src={ImgPython} /> </div>
-        <div className="cell"> <img src={ImgDjango} />  </div>
-        <div className="cell"> <img src={ImgSQL} /> </div>
+      <div className="cell"> <img src={ImgHTML}/><li className="skill-name">HTML </li> </div>
+      <div className="cell"> <img src={ImgJS}/><li className="skill-name">JavaScript </li> </div>
+       <div className="cell"> <img src={ImgCss} /><li className="skill-name">CSS </li> </div>
+        <div className="cell"> <img src={ImgReact} /><li className="skill-name">React </li>  </div>
+        <div className="cell"> <img src={ImgMongoDB} /><li className="skill-name">MongoDB </li> </div>
+        <div className="cell"> <img src={ImgExpress} /><li className="skill-name">Express.js </li> </div>
+        <div className="cell"> <img src={ImgPython} /><li className="skill-name">Python </li> </div>
+        <div className="cell"> <img src={ImgDjango} /><li className="skill-name">Django </li>  </div>
+        <div className="cell"> <img src={ImgSQL} /><li className="skill-name">SQL </li> </div>
         <div>
                 
       </div>

@@ -2,7 +2,7 @@
 position:absolute;
   display: grid;
   grid-template-rows: 120px 120px 120px;
-  grid-template-columns: 120px 120px 120px;
+  grid-template-columns: 140px 140px 140px;
    width: 360px;
    height: 360px;
    top: auto;
@@ -10,13 +10,16 @@ position:absolute;
  
 }
 
-
-
 .cell {
  
   align-items: center;
   justify-content: center;
-  height: 360px;
-  width: 360px;
+  height: 420px;
+  width: 420px;
   margin: 10px;
+}
+
+.skill-name {
+  
+  list-style: none;
 }

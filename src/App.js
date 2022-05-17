@@ -6,7 +6,7 @@ import AboutMe from './Components/About-Me';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
-
+import bg from './images/bg.jpg'
 
 export default function App() { 
   function callback(e) {
@@ -14,6 +14,7 @@ export default function App() {
 } 
   return (
     <div className='App' >
+      <img className='bg' src={bg }/>
       <div className='header'>
         <h1 className='name' >
           <span className='first-letter'>L</span><span className='change-color'>yndon</span>
@@ -22,7 +23,7 @@ export default function App() {
         </h1>
       <Tabs defaultActiveKey='1' onChange={callback}>
         <TabPane className='mid' tab=' About Me' key='1'>
-          <Tabs className='about-me' defaultActiveKey='2' onChange={callback}>      
+          <Tabs className='about-me' defaultActiveKey='1' onChange={callback}>      
           <TabPane className='about-me-tab' tab=' About Me' key='1a'>
                <AboutMe/>
           </TabPane>
@@ -36,8 +37,10 @@ export default function App() {
         </TabPane>
         <TabPane className='mid' tab=' Contact' key='3'>
             <Contact/>
-        </TabPane>
+          </TabPane>
+          
         </Tabs>
+        
       </div>
 </div >
   
