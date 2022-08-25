@@ -32,7 +32,7 @@ export default function App() {
           </TabPane>
             </Tabs>
         </TabPane>
-        <TabPane className='mid' tab=' Projects' key='2'>
+        <TabPane className='mid projects-tab' tab=' Projects' key='2'>
             <Projects/>
         </TabPane>
         <TabPane className='mid' tab=' Contact' key='3'>
