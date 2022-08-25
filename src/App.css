@@ -98,6 +98,8 @@ p{
 .rc-tabs-nav-list {
 margin-top: 1rem;
 }
-.about-me-tab, .skills-tab{
- 
+
+.mid {
+  top: 30px;
+  overflow-y: scroll;
 }
